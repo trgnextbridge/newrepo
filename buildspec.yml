@@ -2,6 +2,10 @@
 version: 0.2
 
 os: linux
+phases:
+  install:
+    runtime-versions:
+        php: 7.3
 files:
 
   - source: /
