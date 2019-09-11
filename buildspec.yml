@@ -5,9 +5,7 @@ phases:
   install:
     runtime-versions:
       java: corretto11
-      files:
-  - source: /
-    destination: /var/www/html/
+      
   pre_build:
     commands:
       - echo Nothing to do in the pre_build phase...
